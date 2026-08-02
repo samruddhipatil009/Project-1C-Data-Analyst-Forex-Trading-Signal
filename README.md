@@ -12,6 +12,9 @@ AUD/USD, EUR/USD, GBP/USD, USD/INR, USD/JPY
 
 ## Dashboard
 
+### Measure Validation (Testing)
+![Measure Validation](ScratchTesting_MeasureValidation.png)
+
 ### Signal Overview
 ![Signal Overview](SignalOverview.png)
 
@@ -30,9 +33,6 @@ AUD/USD, EUR/USD, GBP/USD, USD/INR, USD/JPY
 ### Strategy Comparison
 ![Strategy Comparison](StrategyComparison_CumulativePnL.png)
 
-### Measure Validation (Testing)
-![Measure Validation](ScratchTesting_MeasureValidation.png)
-
 Full dashboard export: [FX_Signal_Lab_PowerBI_Dashboard.pdf](FX_Signal_Lab_PowerBI_Dashboard.pdf)
 
 ## Repository Contents
@@ -40,13 +40,13 @@ Full dashboard export: [FX_Signal_Lab_PowerBI_Dashboard.pdf](FX_Signal_Lab_Power
 | File | Description |
 |------|-------------|
 | `FX_Signal_Lab_PowerBI_Dashboard.pdf` | Full exported Power BI dashboard (all pages) |
+| `ScratchTesting_MeasureValidation.png` | DAX measure validation and testing view |
 | `SignalOverview.png` | Signal type breakdown, win rate, hit rate, cumulative PnL |
 | `RiskManagement_Drawdown.png` | Sharpe ratio, max drawdown, VaR/CVaR metrics |
 | `PairAnalysis_CurrencyPairs.png` | Win rate, trades, and PnL by currency pair |
 | `SessionHeatmap_AvgVolumeByHour.png` | Average trading volume by hour of day |
 | `MonteCarloResults.png` | Monte Carlo simulation results (best/worst case, loss probability) |
 | `StrategyComparison_CumulativePnL.png` | Cumulative PnL comparison across strategies |
-| `ScratchTesting_MeasureValidation.png` | DAX measure validation and testing view |
 | `forex_price_data.csv` | Historical Forex price data used for signal generation |
 | `mc_scenarios.csv` | Monte Carlo simulation scenario data |
 | `trade_log.csv` | Log of all executed trades with entry/exit and PnL |
