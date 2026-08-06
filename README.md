@@ -1,4 +1,4 @@
-# 📊 Project-1C-Data-Analyst-Forex-Trading-Signal
+# 📊 Project-1C-Data-Analyst-Forex-Trading-Signal.
 
 An AI-powered Forex trading signal system using reinforcement learning, technical
 analysis, and machine learning models, with a comprehensive Power BI dashboard
